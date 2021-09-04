@@ -1,0 +1,104 @@
+
+body{
+  background: url('https://images.unsplash.com/photo-1514388614019-c755c395185c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMzMzNzY4fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+  background-position: center;
+  background-size: cover;
+  height:90vh;
+}
+nav{
+  width:100%;
+  height:80px;
+  display:flex;
+  justify-content: space-between;
+  
+  
+}
+.menu a{
+  text-decoration: none;
+  color:white;
+  font-size: 10px;
+  font-size: 0.7vw;
+  margin-right:10px;
+  margin-right:4vw;
+  
+}
+.menu a h1{
+  border: 1px solid white;
+  padding: 8px 20px;
+  padding: 1vw 2vw;
+  
+}
+
+.menu a h1:hover{
+  background: white;
+  color:black;
+  font-size: 20px;
+  font-size: 1.5vw;
+
+}
+.logo h1{
+  color:aliceblue;
+  font-family: cursive;
+  font-size: 20px;
+  font-size: 2vw;
+  margin-left: 10px;
+  }
+.logo h1:hover{ 
+   border: 1px solid #fff;
+  text-decoration: none;
+  padding: 10px 25px;
+  color:aliceblue;
+  font-size: 15px;
+  font-size: 1.5vw;
+  margin-left: 10px;
+  margin-left: 1vw;
+
+}
+
+
+  .title{
+    margin-top:100px:
+    margin-top:15vw:
+    margin-left: 200px;
+    margin-left: 16vw;
+    position: absolute;
+    
+  }
+.title h1{
+  text-align: center;
+  color:white;
+  font-size:70px;
+  font-size: 5vw;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.title a{
+  border: 1px solid #fff;
+  text-decoration: none;
+	padding: 10px 25px;
+  color:aliceblue;
+  font-size: 15px;
+  font-size: 1.5vw;
+  margin-left: 100px;
+  margin-left: 10vw;
+}
+.title a:hover{
+  background: white;
+  color:black;
+  font-size: 20px;
+  font-size: 2vw;
+
+}
+.table{
+border-spacing:0;
+position=center;
+}
+.table_row:nth-child(even){
+background-color:white;
+}
+.table_header{
+text-aligh:left;
+}
+table_cell{
+padding:8px;
+}

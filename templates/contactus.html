@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../static/css/login.css">    
+</head>
+<body>
+  <nav>
+		<div class="logo">
+			<h1 >SMART BANKING</h1>
+		</div>
+		<div class="menu">
+			<a href="pay"><h1>Pay</h1></a>
+      <a href="Loan"><h1>Loan</h1></a>
+      <a href="Transaction History"><h1>Transaction History</h1></a>
+      <a href="contact us"><h1>contact us</h1></a>
+      <a href="/logout"><h1>Logout</h1></a>
+		</div>
+	</nav>
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active">Contact Us </h2>
+   
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <h1>Namaste</h1>
+    </div>
+
+
+    <!-- Login Form -->
+    <form action="/contact us" method="post">
+      <p> We are just a mail away</p>
+      <input type="text" id="email" class="fadeIn second" name="email" placeholder="email">
+<textarea id="msg" class="fadeIn third" name="message" rows="10" cols="50" placeholder="Type Your Message"></textarea>
+      <input type="submit" class="fadeIn fifth" value="submit">
+    </form>
+<div class="msg">{{ msg }}</div>
+   <!-- Remind Passowrd -->
+   <br>
+   <br>
+
+  </div>
+</div>
+</body>
+</html>

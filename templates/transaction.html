@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../static/css/login.css">    
+</head>
+<body>
+  <nav>
+		<div class="logo">
+			<h1 >SMART BANKING</h1>
+		</div>
+		<div class="menu">
+			<a href="pay"><h1>Pay</h1></a>
+      <a href="Loan"><h1>Loan</h1></a>
+      <a href="Transaction History"><h1>Transaction History</h1></a>
+      <a href="contact us"><h1>contact us</h1></a>
+      <a href="/logout"><h1>Logout</h1></a>
+		</div>
+	</nav>
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active">Transaction History </h2>
+   
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <h1>Transactions</h1>
+    </div>
+
+    <table class="table">
+    <tr class="table_heading">
+<th class="table_cell">Name</th>
+<th class="table_cell">Phone number</th>
+<th class="table_cell">Amount</th>
+<th class="table_cell">Status</th>
+</tr>
+{% for rows in msg %}
+<tr class="table_row">
+{% for cell in rows%}
+<td class="table_cell">{{cell}}</td>
+
+{% endfor %}
+</tr>
+{% endfor %}
+</table>
+<br><br>
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+

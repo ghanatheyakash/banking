@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="../static/css/login.css">    
+</head>
+<body>
+  <nav>
+		<div class="logo">
+			<h1 >SMART BANKING</h1>
+		</div>
+		<div class="menu">
+			<a href="pay"><h1>Pay</h1></a>
+      <a href="Loan"><h1>Loan</h1></a>
+      <a href="Transaction History"><h1>Transaction History</h1></a>
+      <a href="contact us"><h1>contact us</h1></a>
+      <a href="/logout"><h1>Logout</h1></a>
+		</div>
+	</nav>
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active"> SMART BANKING </h2>
+   
+
+    <!-- Icon -->
+    <div class="fadeIn first">
+      <h1>LOAN</h1>
+    </div>
+
+
+    <!-- Login Form -->
+    <form action="/Loan" method="post">
+      <input type="text" id="username" class="fadeIn second" name="username" placeholder="Name">
+      <input type="text" id="email" class="fadeIn third" name="email" placeholder="Email">
+      <input type="text" id="gender" class="fadeIn third" name="gender" placeholder="gender">
+      <input type="number" id="age" class="fadeIn third" name="age" placeholder="Age">
+      <input type="tel" id="number" class="fadeIn third" name="number" placeholder="phone no">
+      <input type="number" id="bloodtype" class="fadeIn third" name="amount" placeholder="amount">
+      <input type="text" id="city" class="fadeIn third" name="city" placeholder="city">
+      <input type="submit" class="fadeIn fourth" value="submit">
+    </form>
+<div class="msg">{{ msg }}</div>
+<br>
+   <!-- Remind Passowrd -->
+   
+
+  </div>
+</div>
+</body>
+</html>
